@@ -1,13 +1,13 @@
 <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <p class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">
             <b>S</b>IM</span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg">
             <b>S</b>IMAGES</span>
-    </a>
+    </p>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
         <!-- Sidebar toggle button-->
@@ -44,7 +44,7 @@
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="img/avatar.png" class="user-image" alt="User Image">
+                        <img src="img/avatar.png" class="user-image" alt="reerUser Image">
                         <span class="hidden-xs">Alexander Pierce</span>
                     </a>
                     <ul class="dropdown-menu">

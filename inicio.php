@@ -60,6 +60,20 @@
             var body = $('body');
             console.log(body);
         </script>
+
+        <script>
+            $(function() {
+
+                $('#tablaR').DataTable({
+                    'paging': true,
+                    'lengthChange': false,
+                    'searching': false,
+                    'ordering': true,
+                    'info': true,
+                    'autoWidth': false
+                })
+            })
+        </script>
     </body>
 
 </html>

@@ -14,6 +14,12 @@
 <!-- Bootstrap theme -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
 
+<!--Datatables-->
+
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"/>
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"/>
+
+
 
 
 <!-- JavaScript -->
