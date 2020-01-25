@@ -2,7 +2,7 @@
 
 require '../config/Conexion.php';
 
-class Crud extends Conexion {
+class CrudCategoria extends Conexion {
 
     public $conn;
 
@@ -11,7 +11,7 @@ class Crud extends Conexion {
     }
 
     public function mostrarDatos() {
-        $sql = "SELECT id, nombre, apellido, email, telefono FROM persona";
+        $sql = "SELECT id, nombre_categoria, descripcion_categoria, fecha_creacion  FROM categoria";
         $query = $this->conn->prepare($sql);
         $query->execute();
         return $query->fetchAll();

@@ -24,14 +24,14 @@
 
             <header class="main-header">
                 <!-- Logo -->
-                <a href="index2.html" class="logo">
+                <p class="logo">
                     <!-- mini logo for sidebar mini 50x50 pixels -->
                     <span class="logo-mini">
                         <b>A</b>LT</span>
                     <!-- logo for regular state and mobile devices -->
                     <span class="logo-lg">
                         <b>Admin</b>LTE</span>
-                </a>
+                </p>
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top">
                     <!-- Sidebar toggle button-->
@@ -68,13 +68,13 @@
                             <!-- User Account: style can be found in dropdown.less -->
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <img src="img/avatar.png" class="user-image" alt="User Image">
+                                    <img src="../../dist/foto_logo.png" class="user-image" alt="User Image">
                                     <span class="hidden-xs">Alexander Pierce</span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
                                     <li class="user-header">
-                                        <img src="img/avatar.png" class="img-circle" alt="User Image">
+                                        <img src="../../dist/foto_logo.png" class="img-circle" alt="User Image">
 
                                         <p>
                                             Alexander Pierce - Web Developer
@@ -109,7 +109,7 @@
                     <!-- Sidebar user panel -->
                     <div class="user-panel">
                         <div class="pull-left image">
-                            <img src="img/avatar.png" class="img-circle" alt="User Image">
+                            <img src="../../dist/foto_logo.png" class="img-circle" alt="User Image">
                         </div>
                         <div class="pull-left info">
                             <p>Alexander Pierce</p>
@@ -133,7 +133,7 @@
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu" data-widget="tree">
                         <li class="treeview">
-                            <a href="inicio.php">
+                            <a href="../../inicio.php">
                                 <i class="fa fa-dashboard"></i>
                                 <span>Inicio</span>
                             </a>
@@ -315,89 +315,14 @@
                     </button>
                     <!-- Modal Categoria -->
                     <?php require '../modals/Modal_Categoria.php'; ?>
+
                 </section>
 
                 <!-- Main content -->
                 <section class="content">
 
-                    <!-- Small boxes (Stat box) -->
-                    <div class="row" style="margin: 10px;">
-                        <div>
-                            <table  class="table table-bordered table-striped">
-                                <thead>
-                                    <tr role="row">
-                                        <th>ID</th>
-                                        <th>Nombre Categoria</th>
-                                        <th>Descripcion</th>
-                                        <th>Fecha Creacion</th>
-                                        <th>Opciones</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Gecko</td>
-                                        <td>Firefox 1.0</td>
-                                        <td>Win 98+ / OSX.2+</td>
-                                        <td>1.7</td>
+                    <div id="tablaDatos"></div>
 
-                                        <td>
-                                            <span class="btn btn-info btn-sm">
-                                                <i class="fa fa-edit"></i>
-                                            </span>
-                                            <span class="btn btn-warning btn-sm">
-                                                <i class="fa fa-eraser"></i>
-                                            </span>
-                                        </td>
-                                    </tr>
-                                    <tr >
-                                        <td>Gecko</td>
-                                        <td>Firefox 1.5</td>
-                                        <td>Win 98+ / OSX.2+</td>
-                                        <td>1.8</td>
-                                        <td>
-                                            <span class="btn btn-info btn-sm">
-                                                <i class="fa fa-edit"></i>
-                                            </span>
-                                            <span class="btn btn-warning btn-sm">
-                                                <i class="fa fa-eraser"></i>
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr >
-                                        <td>Gecko</td>
-                                        <td>Firefox 1.5</td>
-                                        <td>Win 98+ / OSX.2+</td>
-                                        <td>1.8</td>
-                                        <td>
-                                            <span class="btn btn-info btn-sm">
-                                                <i class="fa fa-edit"></i>
-                                            </span>
-                                            <span class="btn btn-warning btn-sm">
-                                                <i class="fa fa-eraser"></i>
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr >
-                                        <td>Gecko</td>
-                                        <td>Firefox 1.5</td>
-                                        <td>Win 98+ / OSX.2+</td>
-                                        <td>1.8</td>
-                                        <td>
-                                            <span class="btn btn-info btn-sm">
-                                                <i class="fa fa-edit"></i>
-                                            </span>
-                                            <span class="btn btn-warning btn-sm">
-                                                <i class="fa fa-eraser"></i>
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                 </section>
             </div>
 
@@ -472,10 +397,18 @@
 
   <!-- <script src="dist/vendors.bundle.js"></script> -->
     <script src="../../dist/adminlte.min.js"></script>
+    <script src="../../ajax/Categoria.js"></script>
 
     <script>
         var body = $('body');
         console.log(body);
+    </script>
+
+
+
+
+    <script type="text/javascript">
+        mostrarCategorias();
     </script>
 
 

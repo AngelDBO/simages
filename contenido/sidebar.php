@@ -27,7 +27,7 @@
                     <i class="fa fa-dot-circle-o" aria-hidden="true"></i> En proceso</a>
             </li>
             <li>
-                <a href="vista/Categoria_Vista/categoria.php">
+                <a href="vista/Categoria_Vista/Vista_Categoria.php">
                     <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Categorias</a>
             </li>
             <li>

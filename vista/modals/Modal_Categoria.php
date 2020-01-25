@@ -9,7 +9,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
+                <form id="form-insert">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Nombre categoria</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
