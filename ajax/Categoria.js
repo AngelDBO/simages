@@ -4,7 +4,6 @@ function mostrarCategorias() {
         type: "POST",
         url: "../controller/Categoria_Controller.php",
         success: function(r) {
-            console.log(r);
             $("#tablaDatos").html(r);
 
         }
@@ -30,26 +29,4 @@ function insertarCategorias() {
     });
 
     return false;
-
 }
-
-
-//FUNCION PARA ACTUALIZAR CATEGORIAS
-function actualizarCategorias() {
-
-
-}
-
-
-//FUNCION PARA OBTENER ID DE CATEGORIAS
-function mostarID() {
-
-
-}
-
-//FUNCION PARA ELIMINAR CATEGORIAS
-function eliminarCategorias() {
-
-
-}
-
