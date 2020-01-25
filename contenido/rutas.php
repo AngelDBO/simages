@@ -16,4 +16,5 @@
     </section>
 
     <?php require 'contenido/cartas.php'; ?>
+
 </div>
